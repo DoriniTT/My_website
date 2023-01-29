@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>My Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-
-<body>
+  <head>
+    <title>Home</title>
+  </head>
+  <body>
     <header>
-        <h1>Welcome to My Website</h1>
+      <nav>
+        <a href="about.html">About</a> |
+        <a href="services.html">Services</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <footer>
-        <p>Copyright ©2021 My Website</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-
+    <main>
+      <h1>Welcome to my Portfolio Website</h1>
+      <p>This is the home page of my portfolio website.</p>
+    </main>
+  </body>
 </html>
+
